@@ -1,0 +1,93 @@
+.car-card {
+            width: 270px;
+            height: 480px;
+            margin: 0px 5px 5px 5px;
+            float: left;
+            padding: 10px;
+            position: relative;
+            box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.55);
+        }
+        
+        .car-img {
+            position: absolute;
+            bottom: 240px;
+            width: 90%;
+        }
+        
+        .car-info {
+            position: absolute;
+            bottom: 100px;
+            left: 60px;
+            font-size: 20px;
+        }
+        
+        .car-name {
+            position: absolute;
+            bottom: 140px;
+            left: 60px;
+            font-size: 30px;
+        }
+
+    
+
+
+
+
+
+    
+         #wrapper {
+            width: 100%;
+            max-width: 900px;
+            margin: auto;
+        }
+        
+        .banner {
+            background-color: #eb0a1e;
+            line-height: 40px;
+            padding-left: 20px;
+            color: #ffffff;
+            font-size: 20px;
+            position: sticky;
+            z-index: 1;
+        }
+        
+        #car-row {
+            height: 500px;
+        }
+        
+        footer {
+            height: 200px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            background-color: #eb0a1e;
+        }
+        
+        .logo {
+            position: absolute;
+            left: 25px;
+            top: 10px;
+            width: 10%;
+        }
+        
+        #banner1 {
+            top: 0px;
+        }
+        
+        #banner2 {
+            top: 0px;
+        }
+        
+        #banner3 {
+            top: 0px;
+        }
+        
+        header {
+            background-color: #eb0a1e;
+            height: 40px;
+            line-height: 40px;
+            padding-left: 20px;
+            color: white;
+            font-size: 20px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
