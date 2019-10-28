@@ -16,14 +16,17 @@
         @keyframes change-colors{
             0% {
                 background-color: blue;
+                top: 0px;
             }
             
             50% {
                 background-color: green;
+                top: 50px;
             }
             
             100% {
                 background-color: yellow;
+                top: 0px;
             }
         }
         
@@ -38,7 +41,35 @@
             animation-duration: 4s;
         }
     
-    
+        .ball {
+            width: 100px;
+            height: 100px;
+            margin: 100px auto;
+            position: relative;
+            border-radius: 50%;
+            background: linear-gradient(35deg,
+            #ccffff,
+            #ffcccc);
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            
+            animation-name: bounce;
+            animation-duration: 1s;
+        }
+        
+        @keyframes bounce {
+            0%{
+                top: 0px;
+            }
+            50%{
+                top: 250px;
+                width: 130px;
+                height: 70px;
+            }
+            100%{
+                top: 0px;
+            }
+        }
     
     </style>
 </head>
@@ -46,6 +77,10 @@
 <body>
     
     <div class="div1">
+    
+    </div>
+    
+    <div class="ball">
     
     </div>
     
