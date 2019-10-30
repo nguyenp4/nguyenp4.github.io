@@ -36,3 +36,39 @@ img {
     color: white;
     font-size: 25px;
 }
+
+
+
+
+
+
+
+header {
+    font-family: 'Staatliches', cursive;
+   
+    
+    
+}
+
+@keyframes move-text {
+    
+}
+
+.content-wrapper {
+    width: 900px;
+    
+}
+
+.content-title {
+    
+}
+
+.content-container {
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+
+
+
