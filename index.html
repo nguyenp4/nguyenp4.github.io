@@ -1,79 +1,157 @@
-<!DOCTYPE html?>
-
-<!--This comment. It allows us to take notes in the doc.
-    This text will not appear on the website. -->
-
-
-<html>
-
-<head>  
-<title>Pacey's awesome website</title>
-</head>
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="HTMLPages/background.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .circles-container {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+        }
+        
+        .main-container {
+            background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%); 
+            width: 100%;
+            height: 100vh;
+            position: fixed;
+            z-index: -10;
+        }
+        
+        li {
+            position: absolute;
+            display: block;
+            list-style: none;
+            width: 20px;
+            height: 20px;
+            background-color: aqua;
+            bottom: -150px;
+            animation-name: bubble;
+            animation-duration: 25s;
+            animation-direction: normal;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes bubble {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 0.8;
+                border-radius: 0;
+            }
+            
+            100% {
+                transform: translateY(-1000px) rotate(720deg);
+                opacity: 0;
+                border-radius: 100%;
+            }
+        }
+        
+        .circle1 {
+            left: 17%;
+            width: 80px;
+            height: 80px;
+            animation-delay: 2s;
+        }
     
-
+         .circle2 {
+            left: 57%;
+            width: 70px;
+            height: 90px;
+            animation-delay: 3s;
+        }
+        
+         .circle3 {
+            left: 32%;
+            width: 60px;
+            height: 70px;
+            animation-delay: 4s;
+        }
+        
+         .circle4 {
+            left: 40%;
+            width: 80px;
+            height: 100px;
+            animation-delay: 5s;
+        }
+        
+         .circle5 {
+            left: 50%;
+            width: 40px;
+            height: 30px;
+            animation-delay: 6s;
+        }
+        
+         .circle6 {
+            left: 60%;
+            width: 30px;
+            height: 40px;
+            animation-delay: 7s;
+        }
+        
+         .circle7 {
+            left: 70%;
+            width: 20px;
+            height: 50px;
+            animation-delay: 8s;
+        }
+        
+         .circle8 {
+            left: 42%;
+            width: 70px;
+            height: 50px;
+            animation-delay: 9s;
+        }
+        
+         .circle9 {
+            left: 28%;
+            width: 60px;
+            height: 40px;
+            animation-delay: 10s;
+        }
+    
+        
+      
+    </style>
+</head>
 
 <body>
-    
-    
-   This is a website to use as portfolio for web tech. This website is currently owened by the name of Pacey Nguyen. Pretty cool dude.
-    
-    
-    
-    
-<div>
-    
-    
-    <a href="GImpPages/Gimp1.html"> <img style="width: 400px;" src="Images/lesson1title.png"> </a>
-    
-    
-    
-    <a href="GImpPages/Gimp2.html"> <img style="width: 400px;" src="Images/lesson2title.png"> </a>
-    
-    
-    
-    <a href="GImpPages/Gimp3.html"> <img style="width: 400px;" src="Images/lesson3title.png"> </a>
-    
-    
-    
-    <a href="GImpPages/Gimp4.html"> <img style="width: 400px;" src="Images/lesson4title.png"> </a>
-    
-    
-    
-    <a href="GImpPages/GImp5.html"> <img style="width: 400px;" src="Images/lesson5title.png"> </a> 
-    
-    
-    
-    <a href="GImpPages/Gimp6.html"> <img style="width: 400px;" src="Images/lesson6title.png"> </a>
-    
-    
-    
-    <a href="GImpPages/Gimp7.html"> <img style="width: 400px;" src="Images/lesson7title.png"> </a>
-    
-    
-    
-    <a href="GImpPages/Gimp8.html"> <img style="width: 400px;" src="Images/lesson8title.png"> </a>
-    
-    
-    
-    <a href="GImpPages/GImp9.html"> <img style="width: 400px;" src="Images/lesson9title.png"> </a>
-    
-    
-    
-    <a href="GImpPages/Gimp10.html"> <img style="width: 400px;" src="Images/lesson10title.png"> </a>
-    
-    
+    <div class="main-container">
+        <ul class="circles-container">
+        
+            <li class="circle1"></li>
+            <li class="circle2"></li>
+            <li class="circle3"></li>
+            <li class="circle4"></li>
+            <li class="circle5"></li>
+            <li class="circle6"></li>
+            <li class="circle7"></li>
+            <li class="circle8"></li>
+            <li class="circle9"></li>
+        
+        </ul>
     
     </div>
     
-    <div>
-        <h1>HTML Labs</h1>
-        <a href="HTMLPages/Guided1.html">Guided 1</a>
     
+    <div class="content-card">
+    <img src="HTMLPages/surprisedpikachu.png">
+    
+    <div class="content-text">
+        <p>Float Pikachu</p>
+        </div>
     
     </div>
-
     
-    </body>
-
-
+</body>
 </html>
