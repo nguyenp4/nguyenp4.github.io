@@ -1,0 +1,47 @@
+.container {
+            position: relative;
+            text-align: center;
+            color: white
+        }
+        
+        .top-left {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+            text-align: center;
+            font-family: 'Staatliches';
+            margin-top: 10px;
+            color: white;
+            font-size: 119px;
+        }
+        
+        
+    
+        .soup {
+            margin-right: 3000px;
+        }
+        
+        .donuts {
+            margin-left: 1000px;
+            margin-bottom: 7000px; 
+            
+        }
+        
+        .pn{
+            width: 4000px;
+            height: 2000px;
+        }
+        
+        .column {
+ 
+        }
+        
+         #information{
+           display: flex;
+            margin-left: 750px;
+             
+        }
+
+    
+    
+    
